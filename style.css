@@ -1,7 +1,41 @@
+:root {
+    --color_freelencer_secondary: #2C3E50;
+    --color_freelencer_primary: #1ABC9C;
+    --color-title-no-bg: #333333;
+    --color-bg-footer-top: #3A546D;
+    --color-border-bottom: #CCCCCC;
+}
+/* colors */
+
+.color_freelencer_primary{
+    background-color: var(--color_freelencer_primary);
+}
+
+.color_freelencer_secondary{
+    background-color: var(--color_freelencer_secondary);
+}
+
+.color-bg-footer-top{
+    background-color: var(--color-bg-footer-top);
+}
+
+
+/* header */
+
+.navbar-light .navbar-toggler {
+    color: rgba(223, 210, 210, 0.747);
+    border-color: rgba(255, 255, 255, 0.719);
+}
+
+#site_header .navbar-light .navbar-toggler-icon {
+    filter: invert(1);
+}
+
 .hero_image{
     height: 400px;
 }
 
+/* main */
 .main .card_img1{
     height: 300px;
     background-color: rgba(44, 111, 199, 0.377);
@@ -12,6 +46,8 @@
     height: 220px;
     background-color: blueviolet;
 }
+
+/* footer */
 
 .foot_top{
     background-color: rgb(221, 133, 0);
