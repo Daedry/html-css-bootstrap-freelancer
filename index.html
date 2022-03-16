@@ -24,7 +24,7 @@
 
                     <nav class="navbar navbar-expand-lg navbar-light color_freelencer_secondary">
                         <div class="container-fluid">
-                            <a class="navbar-brand text-uppercase h6 fs-6 pt-2 text-light" href="#">start bootstrp</a>
+                            <a class="navbar-brand text-uppercase h6 fs-6 pt-2 text-light" href="#">start bootstrap</a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                                 data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                                 <span class="navbar-toggler-icon fs-6 text-light"></span>
@@ -82,7 +82,8 @@
 
         <div class="main-top">
             <div class="container-fluid ">
-                <div class="row row-cols-1 bg-success hero_image justify-content-center position-relative flex-column">
+                <div
+                    class="row row-cols-1 hero_image justify-content-center position-relative flex-column color_freelencer_primary">
                     <div class="col d-flex justify-content-center">
                         <img class="mx-5 px-4 img_hero" height="150" src="./img/avatar.svg" alt="">
                     </div>
@@ -111,33 +112,36 @@
 
                 <div class="row row-cols-1 py-4">
                     <div class="col text-center text-uppercase h5">portfolio</div>
-                    <div class="col h4 text-center align-self-start">
+                    <div class="col h4 text-center align-self-start color_text_dark">
                         ──── <i class="fa fa-star" aria-hidden="true"> ────</i>
                     </div>
                 </div>
                 <!-- /.row -->
 
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-3 mb-3 gy-3">
-                    <div class="col card_img1">
-                        <img class="img-fluid rounded" src="./img/cabin.png" alt="">
+                <div class="container" style="max-width: 1000px;">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-3 mb-3 gy-3">
+                        <div class="col card_img1">
+                            <img class="img-fluid rounded" src="./img/cabin.png" alt="">
+                        </div>
+                        <div class="col card_img1">
+                            <img class="img-fluid rounded" src="./img/cake.png" alt="">
+                        </div>
+                        <div class="col card_img1">
+                            <img class="img-fluid rounded" src="./img/circus.png" alt="">
+                        </div>
+                        <div class="col card_img1">
+                            <img class="img-fluid rounded" src="./img/game.png" alt="">
+                        </div>
+                        <div class="col card_img1">
+                            <img class="img-fluid rounded" src="./img/safe.png" alt="">
+                        </div>
+                        <div class="col card_img1">
+                            <img class="img-fluid rounded" src="./img/submarine.png" alt="">
+                        </div>
                     </div>
-                    <div class="col card_img1">
-                        <img class="img-fluid rounded" src="./img/cake.png" alt="">
-                    </div>
-                    <div class="col card_img1">
-                        <img class="img-fluid rounded" src="./img/circus.png" alt="">
-                    </div>
-                    <div class="col card_img1">
-                        <img class="img-fluid rounded" src="./img/game.png" alt="">
-                    </div>
-                    <div class="col card_img1">
-                        <img class="img-fluid rounded" src="./img/safe.png" alt="">
-                    </div>
-                    <div class="col card_img1">
-                        <img class="img-fluid rounded" src="./img/submarine.png" alt="">
-                    </div>
+                    <!-- /.row -->
                 </div>
-                <!-- /.row -->
+                <!-- /.container -->
             </div>
             <!-- /.container -->
         </div>
@@ -153,8 +157,8 @@
                 </div>
                 <!-- /row -->
 
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-sm-2 gy-2 gx-2">
+                <div class="container" style="max-width: 1000px;">
+                    <div class="row row-cols-1 row-cols-sm-2 gy-2">
                         <div class="col text-light ps-lg-5">
                             <p class="card-text">
                                 Freelancer is a free bootstrap theme created by Start Bootstrap. The download
@@ -192,25 +196,55 @@
         </div>
         <!-- /.about -->
 
-        <div class="container-fluid bg-danger">
+        <div class="contact">
+            <div class="container-fluid ">
 
-            <div class="row text-center">
-                <div class="col-12 py-4 mt-4 h1">Contact me</div>
-            </div>
-            <!-- /.row -->
-
-            <div class="container">
-                <div class="row  mx-5 gy-2 gx-2">
-                    <div class="col-12 text_1"></div>
-                </div>
-                <div class="row py-4 ps-5">
-                    <div class="col-3 bg-info ps-1 ms-2"> bottone</div>
+                <div class="row text-center">
+                    <div class="col-12 pt-4 mt-2 h5 text-uppercase">Contact me</div>
+                    <div class="col">
+                        <div class="h4 mb-3 text-center align-self-start color_text_dark">
+                            ──── <i class="fa fa-star" aria-hidden="true"> ────</i>
+                        </div>
+                    </div>
                 </div>
                 <!-- /.row -->
+                <div class="container" style="max-width: 900px;">
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Name">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Email Address">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Phone-Number">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                    <!-- /.row -->
+
+                    <div class="row  mx-5 gy-2 gx-2">
+                        <div class="col-12 text_1"></div>
+                    </div>
+                    <div class="row pt-2 pb-4 ps-1">
+                        <div class="col-1 ps-1 ms-2 text-center text-light bg_btn_primary btn "> send</div>
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container -->
             </div>
-            <!-- /.container -->
+            <!-- /.container-fluid -->
         </div>
-        <!-- /.container-fluid -->
+        <!-- /.contact -->
 
 
 

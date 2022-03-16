@@ -1,7 +1,7 @@
 :root {
     --color_freelencer_secondary: #2C3E50;
     --color_freelencer_primary: #1ABC9C;
-    --color-title-no-bg: #333333;
+    --color-text-dark: #333333;
     --color-bg-footer-top: #3A546D;
     --color-border-bottom: #CCCCCC;
 }
@@ -19,6 +19,13 @@
     background-color: var(--color-bg-footer-top);
 }
 
+.color_text_dark{
+    color: var(--color-text-dark);
+}
+
+.bg_btn_primary{
+    background-color: var(--color_freelencer_primary);
+}
 
 /* header */
 
@@ -33,15 +40,9 @@
 
 /* main */
 
-/* main-top */
-
 .hero_paragraf{
     font-size: 12px;
 }
-
-/* main-mid */
-
-
 
 /* footer */
 
