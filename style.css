@@ -15,12 +15,16 @@
     background-color: var(--color_freelencer_secondary);
 }
 
-.color-bg-footer-top{
+.bg_footer_top{
     background-color: var(--color-bg-footer-top);
 }
 
 .color_text_dark{
     color: var(--color-text-dark);
+}
+
+.color_text_success{
+    color: var(--color_freelencer_primary);
 }
 
 .bg_btn_primary{
@@ -42,19 +46,4 @@
 
 .hero_paragraf{
     font-size: 12px;
-}
-
-/* footer */
-
-.foot_top{
-    background-color: rgb(221, 133, 0);
-}
-
-.text_foot{
-    height: 80px;
-    background-color: maroon;
-}
-
-.foot_bot{
-    background-color: rgb(30, 148, 14);
 }
